@@ -775,8 +775,8 @@ def render() -> None:
                             )
                             st.dataframe(
                                 df_shap.style
-                                .applymap(_color_arah, subset=["Arah"])
-                                .applymap(_color_shap, subset=["SHAP"])
+                                .map(_color_arah, subset=["Arah"])
+                                .map(_color_shap, subset=["SHAP"])
                                 .format({"SHAP": "{:+.4f}", "|SHAP|": "{:.4f}"}),
                                 use_container_width=True,
                                 hide_index=True,
