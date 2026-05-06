@@ -1,28 +1,12 @@
-# Konfigurasi tema Streamlit - terapkan otomatis saat aplikasi dijalankan
-
 [theme]
-# Warna utama (tombol, accent, links)
 primaryColor = "#534AB7"
-
-# Background utama
 backgroundColor = "#FFFFFF"
-
-# Background sidebar dan komponen sekunder
 secondaryBackgroundColor = "#F1EFE8"
-
-# Warna teks
 textColor = "#2C2C2A"
-
-# Font keluarga
 font = "sans serif"
 
 [server]
-# Port default Streamlit
-port = 8501
-
-# Headless mode untuk deployment
-headless = false
+headless = true
 
 [browser]
-# Statistik usage (boleh dimatikan)
 gatherUsageStats = false
