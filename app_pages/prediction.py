@@ -751,8 +751,7 @@ def render() -> None:
                         ]
 
                         if all_rows:
-                            import pandas as pd
-
+        
                             df_shap = pd.DataFrame(all_rows)
 
                             def _color_arah(val):
