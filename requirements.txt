@@ -10,4 +10,4 @@ catboost==1.2.10
 xgboost==3.0.2
 category-encoders==2.9.0
 plotly==6.5.0
-shap==0.46.0
+shap
